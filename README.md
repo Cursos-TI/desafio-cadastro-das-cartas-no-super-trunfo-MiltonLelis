@@ -7,17 +7,15 @@ gcc CartasSuperTrunfo.c -o CartasSuperTrunfo
 ./CartasSuperTrunfo
 
 # Utilização do Programa
-- Você deve selecionar uma das opções (atributos) do menu, conforme abaixo:
-1. Nome do País (apenas exibição)
-2. População
-3. Área
-4. PIB
-5. Número de Pontos Turísticos
-6. Densidade Demográfica
-- Caso seja selecionada a opção 1, o sistema mostrará os dados das duas cartas pré-cadastradas, sem efetuar comparação.
-- Caso selecione umas demais opções, o sistema mostrará uma comparação de acordo com o atributo selecionado constando:
+- Você deve selecionar duas das opções (atributos) do menu, conforme abaixo:
+1. População
+2. Área
+3. PIB
+4. Número de Pontos Turísticos
+5. Densidade Demográfica
+- O sistema mostrará uma comparação, de acordo com os atributos selecionados, constando:
 1. O nome dos dois países.
-2. O atributo usado na comparação.
-3. Os valores do atributo para cada carta.
-4. Qual carta venceu.
-5. Em caso de empate, exibe a mensagem "Empate!".
+2. Os dois atributos usados na comparação.
+3. Os valores de cada atributo para cada carta.
+4. A soma dos atributos para cada carta.
+5. Qual carta venceu (ou se houve empate).
